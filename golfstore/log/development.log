@@ -4507,3 +4507,157 @@ ActionController::RoutingError (No route matches [GET] "/views/about.html"):
   Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.2ms)
   Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.9ms)
   Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (41.5ms)
+
+
+Started GET "/" for 31.187.27.235 at 2015-04-03 20:30:30 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (3.6ms)
+Completed 200 OK in 41ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 31.187.27.235 at 2015-04-03 20:30:36 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (56.6ms)
+Completed 200 OK in 399ms (Views: 395.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 31.187.27.235 at 2015-04-03 20:30:37 +0000
+
+
+Started GET "/assets/templatestyles-97b0ef7924a18ee381a416a68105e65b.css?body=1" for 31.187.27.235 at 2015-04-03 20:30:37 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 31.187.27.235 at 2015-04-03 20:30:37 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 31.187.27.235 at 2015-04-03 20:30:37 +0000
+
+
+Started GET "/assets/application-f5d58826b286bda74262c931534fe127.css?body=1" for 31.187.27.235 at 2015-04-03 20:30:37 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 31.187.27.235 at 2015-04-03 20:30:37 +0000
+
+
+Started GET "/assets/Site/logo.jpg" for 31.187.27.235 at 2015-04-03 20:30:37 +0000
+
+
+Started GET "/assets/Site/header.jpg" for 31.187.27.235 at 2015-04-03 20:30:37 +0000
+
+
+Started GET "/assets/Site/opttextures.png" for 31.187.27.235 at 2015-04-03 20:30:37 +0000
+
+
+Started GET "/assets/Site/brown.jpg" for 31.187.27.235 at 2015-04-03 20:30:37 +0000
+
+
+Started GET "/items" for 31.187.27.235 at 2015-04-03 20:32:41 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 255ms (Views: 253.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds-859e3e5f5d56401a0bc15263d9f2e0de.css?body=1" for 31.187.27.235 at 2015-04-03 20:32:41 +0000
+
+
+Started GET "/assets/application-d7597888a5159dac0da06e208ec4a396.css?body=1" for 31.187.27.235 at 2015-04-03 20:32:41 +0000
+
+
+Started GET "/assets/templatestyles-14660a574cb0c1bfed2460fb5bc2bfcb.css?body=1" for 31.187.27.235 at 2015-04-03 20:32:41 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 31.187.27.235 at 2015-04-03 20:32:41 +0000
+
+
+Started GET "/" for 31.187.27.235 at 2015-04-03 20:33:45 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 31.187.27.235 at 2015-04-03 20:33:49 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 229ms (Views: 227.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application-41265119bdc170927337c99c5903150d.css?body=1" for 31.187.27.235 at 2015-04-03 20:33:50 +0000
+
+
+Started GET "/assets/scaffolds-49b1f9c08f18d0b18491768c388d59af.css?body=1" for 31.187.27.235 at 2015-04-03 20:33:50 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 31.187.27.235 at 2015-04-03 20:33:50 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 31.187.27.235 at 2015-04-03 20:33:50 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 31.187.27.235 at 2015-04-03 20:33:50 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 31.187.27.235 at 2015-04-03 20:33:50 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 31.187.27.235 at 2015-04-03 20:33:50 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 31.187.27.235 at 2015-04-03 20:33:50 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 31.187.27.235 at 2015-04-03 20:33:50 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 31.187.27.235 at 2015-04-03 20:33:50 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 31.187.27.235 at 2015-04-03 20:33:50 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 31.187.27.235 at 2015-04-03 20:33:50 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 31.187.27.235 at 2015-04-03 20:33:50 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 31.187.27.235 at 2015-04-03 20:33:51 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 31.187.27.235 at 2015-04-03 20:33:51 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 31.187.27.235 at 2015-04-03 20:33:51 +0000
+
+
+Started GET "/assets/Site/BookHeader.jpg" for 31.187.27.235 at 2015-04-03 20:33:51 +0000
+
+
+Started GET "/items/1" for 31.187.27.235 at 2015-04-03 20:34:13 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 96ms (Views: 78.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/contact" for 31.187.27.235 at 2015-04-03 20:34:27 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 122ms (Views: 120.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 31.187.27.235 at 2015-04-03 20:34:28 +0000
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 96ms (Views: 94.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 31.187.27.235 at 2015-04-03 20:34:29 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 97ms (Views: 95.4ms | ActiveRecord: 0.3ms)

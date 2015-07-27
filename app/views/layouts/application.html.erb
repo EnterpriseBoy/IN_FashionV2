@@ -16,7 +16,7 @@
 <body>
 	<header>
 		<div id="logo">
-			<img src="/assets/site/logo.png" alt="logo"/>
+			<%= image_tag('site/logo.png', alt: 'logo')%>
 		</div>
 		<div id="right">
 			<% if session[:username].eql? "Admin" %>

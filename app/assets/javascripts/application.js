@@ -14,3 +14,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$(document).on('page:load ready', function() {
+	$("#loginButton").leanModal({top : 200, overlay : 0.6, closeButton: ".modal_close" });
+});
+
+

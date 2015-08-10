@@ -1,0 +1,438 @@
+/* CSS THAT APPEARS ON MULTIPLE PAGES ACROSS APPLICATION */
+
+.h1fullwidth {
+  padding-left: 2%;
+  text-align: left;
+  color: #761f31;
+  width: 98%;
+  margin-bottom: 5px;
+  margin-top: 1%;
+}
+
+.topgradientdiv {
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-bottom: 1%;
+  width: 98%;
+  float: left;
+  border-top: solid 1px #000;
+  background: linear-gradient(#fb7142 3%, #ffffff 15%);
+}
+
+.form input, .textarea {
+  border: solid 1px #fb7142;
+  outline: none;
+  background: #fff;
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  padding: 3px;
+  margin-bottom: 3%;
+}
+
+.textarea {
+	border-radius: 0px;
+}
+
+.form input:hover, .textarea:hover {
+  box-shadow: 0px 0px 1px 1px #fb7142;
+}
+
+.formsubmit:hover {
+	cursor: pointer;
+	color: #fb7142;
+}
+
+.filledorangebtn {
+	width: 65%;
+	margin-right: auto;
+  	margin-left: auto;
+}
+
+.filledorangebtn input {
+  margin-top: 3%;
+  text-decoration: none;
+  color: #761f31;
+  border: solid 1px #999;
+  background: #fb7142;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-family: 'Lobster', Georgia, Times, serif;
+  width: 100%;
+}
+
+.filledorangebtn input:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 2px 1px #fb7142;
+}
+
+.link {
+  color: #000;
+  font-family: 'Lobster', Georgia, Times, serif;
+  text-decoration: none;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+.col {
+  width: 30%;
+  float: left;
+  padding: 1%;
+  margin-right: 1%;
+  border-right: solid 2px #fff;
+}
+
+.twocol {
+  width: 48%;
+  padding: 1%;
+  float: left;
+}
+
+.centeralign {
+	text-align: center;
+}
+
+#lastcol {
+  border: none;
+}
+
+.flashmsg {
+	color: red; 
+	font-size: 1.2em; 
+	margin-bottom: 10px;
+}
+
+/**********************************************************************************************************************************************/
+
+/* CSS template for Site Structure */
+html {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	background: url("/assets/site/silk.jpg") repeat-y;
+	background-size: 25% auto;
+	background-color: #d4cfd3;
+	overflow-y: scroll;
+}
+
+html::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+html::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+html::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+body {
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	overflow: auto;
+}
+
+header {
+	width: 99.6%;
+	height: 8%;
+	color: #fff;
+	float: left;
+	position: relative;
+	margin-bottom: 1%;
+	border-bottom: solid 1px #000;
+}
+
+#right {
+	float: left;
+	width: 68%;
+	height: 100%;
+	font-family: 'Lobster', Georgia, Times, serif;
+	text-align: right;
+	padding-right: 2%;
+	font-size: 1.1em;
+	color: #fff;
+	margin-top: 1%;
+}
+
+#right ul {
+	text-align: right;
+	display: inline;
+	white-space: nowrap;
+	padding-left: 0px;
+}
+
+#right li {
+	display: inline;
+	list-style: none;
+	padding-left: 0%;
+	padding-right: 1%;
+	color: #aaa;
+	font-size: 0.95em;
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+}
+
+#right a {
+	color: #fb7142;
+	text-decoration: none;
+	font-size: 0.95em;
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+}
+
+#right a:hover {
+	text-decoration: underline;
+}
+
+#logo {
+	float: left;
+	width: 30%;
+	background: linear-gradient(to bottom right, #fef0ec 25%, #d4cfd3 50%);
+}
+
+#logo img {
+	max-width: 70%;
+	float: left;
+	max-height: 250px;
+}
+
+#nav {
+	width: 69.7%;
+	text-align: right;
+	float: left;
+	font-family: 'Lobster', Georgia, Times, serif;
+	margin-bottom: 0px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#nav ul {
+	font-family: 'Lobster', Georgia, Times, serif;
+	width: 98%;
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-top: 1%;
+	padding-bottom: 0.2%;
+	margin-top: 0px;
+	float: left;
+	margin-bottom: 0px;
+}
+
+#nav li {
+	font-size: 1.2em; 
+	display: inline;
+	list-style-type: none;
+	margin-right: 1%;
+}
+
+#nav a {
+	color: #fff;
+	text-decoration: none;
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+
+#nav a:hover {
+	text-shadow: 0px 0px 5px #761f31;
+	text-decoration: underline;
+}
+
+#navimg {
+	text-align: left;
+	overflow: hidden;
+	padding-bottom: 0px;
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#main {
+	margin: 0px;
+	float: left;
+	clear: both;
+	width: 99.8%;
+	overflow: auto;
+	padding: 0px;
+	background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lobster', Georgia, Times, serif;
+}
+
+#main h1 {
+	color: #761f31;
+}
+
+p {
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+}
+
+footer {
+	margin-top: 1%;
+	margin-bottom: 1%;
+	color: #fff;
+	float: left;
+	clear: both;
+	width: 96%;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
+#footerlinks {
+	color: #999;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+#footerlinks  ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#footerlinks li{
+	display: inline;
+	margin-right: 1%;
+}
+
+#footerlinks  ul a {
+	color: #761f31;
+	text-decoration: none;
+}
+#footerlinks a:hover {
+	text-decoration: underline;
+}
+
+#updated {
+	color: #888;
+	margin-top: 1%;
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+/* Login PopUp*/
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: none;
+}
+
+.popupContainer{
+	position:absolute;
+	width: 28%;
+	height: auto;
+	background: #fff;
+	border: solid 1px #fff;
+	box-shadow: 0px 0px 15px 2px #000;
+}
+
+/* Popup Styles*/
+.popupHeader {
+	color: #761f31;
+	font-family: 'Lobster', Georgia, Times, serif;
+	font-size: 1.5em;
+	padding: 1%;
+	width: 98%;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 1%;
+}
+
+.header_title {
+	width: 69%;
+	padding-left: 1%;
+	float: left;
+}
+
+.popupHeader .modal_close {
+	width: 29%;
+	padding-right: 1%;
+	cursor: pointer; 
+	float: left;
+	text-align: right;
+	font-size: 0.8em;
+}
+
+.popupBody {
+	padding-top: 2%;
+	padding-right: 2%;
+	padding-left: 2%;
+	padding-bottom: 1%;
+}
+
+/* User Login Form */
+
+#sendbtn:hover {
+  color: #fb7142;
+  cursor: pointer;
+  box-shadow: 0px 0px 1px 1px #fb7142;
+}
+
+@media only screen and (max-width: 1000px) {
+	/* CSS THAT APPEARS ON MULTIPLE PAGES ACROSS APPLICATION */
+	.col {
+    	width: 97%;
+    	border-right: solid 0px #fff;
+    	border-bottom: solid 2px #fff;
+  	}
+  	
+  	.topgradientdiv {
+  		background: linear-gradient(to right, #fb7142 3%, #ffffff 15%);
+  	}
+  	
+  	.twocol {
+		width: 98%;
+	}
+	
+	/* CSS template for Site Structure */
+	#nav {
+		position: relative;
+	}
+	
+	#content {
+		width: 97.4%;
+	}
+	
+	body {
+		width: 97%;
+	}
+	
+	#quicklinks ul {
+		padding-right: 0px;
+		padding-left:0px;
+	}
+	
+	#nav ul {
+		width: 97.8%;
+	}
+	
+	#footerlinks {
+	width: 100%;
+}
+
+	#updated {
+		margin-top: 2%;
+		width: 100%;
+		text-align: right;
+	}
+	
+	.popupContainer {
+		width: 50%;
+	}
+}

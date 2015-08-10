@@ -1,0 +1,106 @@
+/* Checkout Page */
+.topgradientdiv h2 {
+  color: #761f31;
+  margin-top: 1%;
+  text-align: center;
+}
+
+#subtotallbl {
+  width: 50%;
+  float: left;
+}
+
+#subtotalcost {
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+
+#shippinglbl {
+  width: 50%;
+  float: left;
+}
+
+#shippingcost {
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+
+#totalcost {
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 1.4em;
+  border-bottom: solid 1px #000;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+#comments {
+  border-bottom: solid 1px #000;
+  margin-bottom: 5%;
+}
+
+#submitorder {
+  text-align: center;
+}
+
+/* Cart Index Page */
+.cartItem {
+  width: 98%;
+  float: left;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-top: 4%;
+  border-bottom: solid 1px #999;
+}
+
+.cartTitle {
+  width: 40%;
+  float: left;
+}
+
+.cartQuantity {
+  width: 15%;
+  float: left;
+  text-align: right;
+}
+
+.cartColor {
+  width: 15%;
+  float: left;
+  text-align: right;
+}
+
+.cartSize {
+  width: 15%;
+  float: left;
+  text-align: right;
+}
+
+.cartPrice {
+  width: 15%;
+  float: left;
+  text-align: right;
+}
+
+#total {
+  width: 93%;
+  text-align: right;
+  margin-top: 1%;
+  padding-right: 7%;
+  float: left;
+}
+
+#total h3 {
+  width: 75%;
+  margin: 0px;
+  float: left;
+}
+
+#itemscnt {
+  width: 25%;
+  float: left;
+  text-align: left;
+}
